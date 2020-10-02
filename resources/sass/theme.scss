@@ -1,0 +1,27 @@
+
+:root {
+    --theme-color:#3490dc;
+}
+
+h1{
+    color:orange;
+}
+
+.text-theme{
+
+    color: var(--theme-color);
+}
+
+.bg-theme{
+    background-color: var (--theme-color) ;
+}
+
+.nav-hover{
+
+    transition: 0,4s;
+    border-bottom: 2px solid transparent;
+    border-radius: 0px;
+}
+.nav-hover:hover{
+    border-bottom: 2px solid var(--theme-color);
+}
