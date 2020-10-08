@@ -29,13 +29,17 @@ class FrontendController extends Controller
 
     public function blog()
     {
-        $articles=Article::all();
+        $articles=Article::where('published',true)->paginate(12);
         return view('blog',compact('articles'));
     }
 
     public function article($article_id)
     {
-        $article =Article:: find($article_id);
+        $article=Article:: where('published',true)->where('id',$article_id)->first();
+        if($article){
         return view('article', compact('article'));
+        }else{
+            return('/blog');
+        }
     }
 }

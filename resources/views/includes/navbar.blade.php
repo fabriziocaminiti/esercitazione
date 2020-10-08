@@ -1,8 +1,8 @@
 
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white py-3">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                <i id="logo" class="far fa-futbol fa-4x"></i>
+                <i class="far fa-newspaper fa-2x"></i>
                 </a>
                 <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="navbar-custom" aria-controls="navbar-custom" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <i class="fas fa-align-right text-theme"></i>

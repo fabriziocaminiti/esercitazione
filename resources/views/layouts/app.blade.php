@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yeld('title')</title>
+    <title>Progetto Nova</title>
 
     <meta name="description" content="@yeld('description">
 
@@ -15,7 +15,6 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @stack('styles')
 </head>
-<body style="background-color:#d3d3d3;">
     <div id="app">
         @include('includes.navbar')
 

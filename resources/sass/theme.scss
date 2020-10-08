@@ -1,6 +1,6 @@
 
 :root {
-    --theme-color:#3490dc;
+    --theme-color:green;
 }
 
 h1{
@@ -8,20 +8,24 @@ h1{
 }
 
 .text-theme{
-
     color: var(--theme-color);
 }
 
 .bg-theme{
-    background-color: var (--theme-color) ;
+    background-color: var(--theme-color);
 }
 
 .nav-hover{
-
-    transition: 0,4s;
-    border-bottom: 2px solid transparent;
-    border-radius: 0px;
+  transition: 0.4s;
 }
 .nav-hover:hover{
     border-bottom: 2px solid var(--theme-color);
+}
+#navbar{
+    transition: 0.8s;
+    background-color: #d3d3d3;
+
+}
+.border-bottom-main{
+    border-bottom: 4px solid var(--theme-color);
 }
