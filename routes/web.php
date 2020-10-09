@@ -23,5 +23,4 @@ Auth::routes();
 Route::get('/', [FrontendController::class, 'index'])->name('home');
 Route::get('/blog', [FrontendController::class, 'blog'])->name('blog');
 Route::get('/notizia/{article_id}/{article_title?}', [FrontendController::class, 'article'])->name('article');
-Route::get('/welcome', [Info::class, 'welcome'])->name('welcome');
 

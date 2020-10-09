@@ -6,14 +6,16 @@ use Livewire\Component;
 
 class Info extends Component
 {
+    public $sport;
+    public $cronaca;
+
     public function render()
     {
         return view('livewire.info');
     }
-
-    public function welcome(){
-        return view('welcome');
-    }
+    //public function cambiaNome($nuovoNome){
+      //  $this->sport=$nuovoNome;
+    //}
 }
 
 
