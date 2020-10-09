@@ -16,13 +16,18 @@
 
             @livewire('info',['sport'=>'sport','cronaca'=>'cronaca'])
 
+            @livewire('contact-manager')
+
+
+            @livewire('padre')
+
+
             @livewireScripts
 
         </div>
     </div>
 </div>
 
-<div style="margin-top: 4000px;"></div>
 
 
 @endsection

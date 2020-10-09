@@ -4,7 +4,7 @@
             <h2 class="undertitle">Categorie trattate</h2>
                <div class="row col-6">
                   <ul class="mt-5">
-                  <li><input wire:model='sport' type="text"> <button wire:click="$set('sport')">Cambia categoria</button></li>
+                  <li><input wire:model='sport' type="text"></li>
                   <span>{{$sport}}</span>
                   <select class="mt-3" wire:model='sport'>
                      <option>calcio</option>

@@ -9,6 +9,11 @@ class Info extends Component
     public $sport;
     public $cronaca;
 
+    //public function mount()
+    //{
+      //$this->sport = 'sport';
+    //}
+
     public function render()
     {
         return view('livewire.info');
