@@ -42,4 +42,6 @@ class FrontendController extends Controller
             return('/blog');
         }
     }
+
+    
 }

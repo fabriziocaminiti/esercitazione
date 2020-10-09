@@ -15,6 +15,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @stack('styles')
 </head>
+   <body>
     <div id="app">
         @include('includes.navbar')
 
@@ -26,11 +27,9 @@
     </div>
 
 
-
-
       <!-- Scripts -->
       <script src="{{ asset('js/app.js') }}"></script>
       <script src="https://kit.fontawesome.com/1778af66f3.js" crossorigin="anonymous"></script>
-      @stack('scripts')
+      @stack('scripts')   
 </body>
 </html>
