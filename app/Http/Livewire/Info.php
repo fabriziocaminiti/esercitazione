@@ -8,6 +8,9 @@ class Info extends Component
 {
     public $sport;
     public $cronaca;
+    public $ministero;
+    public $annunci;
+    public $lavoro;
 
     //public function mount()
     //{

@@ -14,7 +14,7 @@
 
             @livewireStyles
 
-            @livewire('info',['sport'=>'sport','cronaca'=>'cronaca'])
+            @livewire('info',['sport'=>'sport','cronaca'=>'cronaca'], ['ministero'=>'ministero'],['annunci'=>'annunci'],['lavoro'=>'lavoro'])
 
             @livewire('contact-manager')
 
