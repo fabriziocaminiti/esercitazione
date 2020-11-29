@@ -20,24 +20,24 @@
 
 
 
-        <section class="row py-5">
+    <section class="row py-5">
 
-                @foreach($articles as $article)
+        @foreach($articles as $article)
 
-                <div class="col-12 col-md-4">
-                    <img src="{{Storage::url($article->img)}}" alt="{{$article->title}}" class="img-fluid" width="200">
-                    <h2>{{$article->title}}</h2>
-                    <p>{{$article->getPreview()}}</p>
-                    <a href="{{$article->url()}}" class="btn btn-success btn-lg px-4">Clicca</a>
-                </div>
+        <div class="col-12 col-md-4">
+            <img src="{{Storage::url($article->img)}}" alt="{{$article->title}}" class="img-fluid" width="200">
+            <h2>{{$article->title}}</h2>
+            <p>{{$article->getPreview()}}</p>
+            <a href="{{$article->url()}}" class="btn btn-success btn-lg px-4">Clicca</a>
+        </div>
 
-                @endforeach
+        @endforeach
 
-                <div class="col-12">
-               {{$articles->render()}}
-                </div>
+        <div class="col-12">
+            {{$articles->render()}}
+        </div>
 
-        </section>
+    </section>
 
 </div>
 
@@ -46,6 +46,3 @@
 @push('scripts')
 
 @endpush
-
-
-

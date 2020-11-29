@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +16,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @stack('styles')
 </head>
-   <body>
+
+<body>
     <div id="app">
         @include('includes.navbar')
 
@@ -27,9 +29,10 @@
     </div>
 
 
-      <!-- Scripts -->
-      <script src="{{ asset('js/app.js') }}"></script>
-      <script src="https://kit.fontawesome.com/1778af66f3.js" crossorigin="anonymous"></script>
-      @stack('scripts')   
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="https://kit.fontawesome.com/1778af66f3.js" crossorigin="anonymous"></script>
+    @stack('scripts')
 </body>
+
 </html>
